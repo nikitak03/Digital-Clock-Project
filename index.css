@@ -1,0 +1,126 @@
+/* *{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+.cc{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #00171f, #195c7d);
+    color: white;
+    position: relative;
+}
+/* .container{
+    content: '';
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    filter: blur(1px);
+    border-radius: 10px;
+    transform: translate(-50%,-50%);
+} */
+/* .clock{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background: rgba(0, 162, 255, 0.11);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+/* .clock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 30px 30px 30px;
+    border-radius: 10px;
+    background-color: rgba(0, 162, 255, 0.11);
+    color: #fff;
+    letter-spacing: 1px;
+    width: 20%;
+    height: 50%;
+    
+}
+.clock::before {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    z-index: -1;
+    filter: blur(10px);
+    border-radius: 10px;
+    background-color: rgba(0, 162, 255, 0.11);
+    content: '';
+
+}
+.date{
+    font-size: 1.25rem;
+}
+.time{
+    font-size: 3rem;
+} */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.cc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #00171f, #195c7d);
+    color: white;
+    position: relative;
+}
+
+.clock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(0, 162, 255, 0.11);
+    color: #fff;
+    letter-spacing: 1px;
+    width: 20%;
+    height: auto;
+}
+
+.clock::before {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    z-index: -1;
+    filter: blur(10px);
+    border-radius: 10px;
+    background-color: rgba(0, 162, 255, 0.11);
+    content: '';
+}
+
+.date {
+    font-size: 1.25rem;
+}
+
+.time {
+    font-size: 3rem;
+}
